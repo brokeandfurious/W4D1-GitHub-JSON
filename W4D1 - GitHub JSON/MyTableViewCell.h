@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyTableViewCell.h
 //  W4D1 - GitHub JSON
 //
 //  Created by Murat Ekrem Kolcalar on 11/20/17.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface MyTableViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *gitLabel;
 
 
 @end

@@ -13,6 +13,8 @@
 		9DF6F1F01FC360AC00905269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6F1EF1FC360AC00905269 /* Assets.xcassets */; };
 		9DF6F1F31FC360AC00905269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6F1F11FC360AC00905269 /* LaunchScreen.storyboard */; };
 		9DF6F1F61FC360AC00905269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6F1F51FC360AC00905269 /* main.m */; };
+		9DF6F20D1FC368A800905269 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6F20C1FC368A800905269 /* MyTableViewCell.m */; };
+		9DF6F2101FC36B8200905269 /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6F20F1FC36B8200905269 /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		9DF6F1F21FC360AC00905269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DF6F1F41FC360AC00905269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DF6F1F51FC360AC00905269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DF6F20B1FC368A800905269 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		9DF6F20C1FC368A800905269 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		9DF6F20E1FC36B8200905269 /* Repo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		9DF6F20F1FC36B8200905269 /* Repo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +69,14 @@
 				9DF6F1E91FC360AC00905269 /* ViewController.h */,
 				9DF6F1EA1FC360AC00905269 /* ViewController.m */,
 				9DF6F1EC1FC360AC00905269 /* Main.storyboard */,
+				9DF6F20B1FC368A800905269 /* MyTableViewCell.h */,
+				9DF6F20C1FC368A800905269 /* MyTableViewCell.m */,
 				9DF6F1EF1FC360AC00905269 /* Assets.xcassets */,
 				9DF6F1F11FC360AC00905269 /* LaunchScreen.storyboard */,
 				9DF6F1F41FC360AC00905269 /* Info.plist */,
 				9DF6F1F51FC360AC00905269 /* main.m */,
+				9DF6F20E1FC36B8200905269 /* Repo.h */,
+				9DF6F20F1FC36B8200905269 /* Repo.m */,
 			);
 			path = "W4D1 - GitHub JSON";
 			sourceTree = "<group>";
@@ -144,7 +154,9 @@
 			files = (
 				9DF6F1EB1FC360AC00905269 /* ViewController.m in Sources */,
 				9DF6F1F61FC360AC00905269 /* main.m in Sources */,
+				9DF6F2101FC36B8200905269 /* Repo.m in Sources */,
 				9DF6F1E81FC360AC00905269 /* AppDelegate.m in Sources */,
+				9DF6F20D1FC368A800905269 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
